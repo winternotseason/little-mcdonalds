@@ -1,0 +1,62 @@
+.meal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #353535;
+  background: #f8f7f7;
+}
+
+.meal:hover{
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 0.5rem rgb(255, 125, 19);
+}
+
+.headerText {
+  text-align: center;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.headerText h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.headerText p {
+  font-size: 0.75rem;
+  color: #cfa69b;
+  font-style: italic;
+}
+
+.meal h2,
+.meal p {
+  margin: 0;
+}
+
+.image {
+  position: relative;
+  height: 20rem;
+}
+
+.meal img {
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-bottom : 4rem;
+}
+
+.summary {
+  text-align: center;
+  padding: 1rem 1rem 0 1rem;
+  color:#858585;
+  font-weight: 700;
+}
+

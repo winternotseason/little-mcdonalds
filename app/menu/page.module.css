@@ -1,0 +1,34 @@
+.header img {
+  height: 25rem;
+  width: 100%;
+  filter: brightness(70%);
+  object-fit: cover;
+}
+
+.header {
+  position: relative;
+  margin-top: 15rem;
+}
+
+.headerContent {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 20%;
+  color: snow;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.headerContent h2 {
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-left: 30px;
+}
+
+.headerContent p {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  margin-left: 30px;
+}
